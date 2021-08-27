@@ -1,0 +1,170 @@
+.contact{
+display: flex;
+}
+
+
+.contact .data{
+    width: 94%;
+    height: 100vh;
+    background-color: rgb(46, 46, 46);
+}
+
+/* forms */
+.contact .data .forms{
+width:45%;
+margin-top: 2%;
+float: right;
+background-color: white;
+height: auto;
+padding-bottom: 40px;
+z-index: -1;
+margin-right: 14%;
+}
+.contact .data .forms h1{
+    text-align: center  ;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+.contact .data .forms input{
+    width: 70%;
+   float: right;
+   height: 20px;
+   outline: none;
+   font-size: 0.9em;
+   padding-top: 17px;
+   border: none;
+   border-bottom: 2px solid black;
+   margin-right: 5%;
+}
+
+.contact .data .forms textarea{
+    width: 70%;
+   float: right;
+   height: 80px;
+   outline: none;
+   font-size: 0.9em;
+   padding-top: 17px;
+   border: none;
+   border-bottom: 2px solid black;
+   margin-right: 5%;
+}
+.contact .data .forms button{
+    clear: both;
+    width:20%;
+   float: right;
+   height: 40px;
+  border: none;
+  margin-top: 2%;
+
+  border: 2px solid black;
+  cursor: pointer;
+  background: none;
+  color: red;
+   font-size: 0.9em;
+
+  
+   margin-right: 5%;
+}
+
+
+
+
+/* image */
+.contact .data .con-img{
+   position: absolute;
+   top: 5%;
+   left: 16%;
+    width:28%;
+    margin-top: 2%;
+
+    float: left;
+    background-color: rgb(177, 177, 177);
+    height: 520px;
+
+    }
+
+    .contact .data .con-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* address  bar */
+    .contact .data .address{
+        position: absolute;
+        top: 54%;
+        left: 27%;
+        list-style: none;
+        display: flex;
+        width:50%;
+        border-radius: 4px;
+margin-top: 15%;
+float: right;
+background-color: rgb(105, 104, 104);
+height: 80px;
+margin-right: 28%;
+
+    }   
+    .contact .data .address li{
+        width: 39%;
+       padding-left: 2%;
+    } 
+    .contact .data .address li .icon{
+        float: left;
+        margin-top: 8%;
+        color: white;
+    }
+    .contact .data .address li h5{
+font-size: 1em;
+text-transform: uppercase;
+margin-top: 12%;
+color: rgb(241, 239, 239);
+font-weight: 300;
+margin-left: 20%;
+    }
+    .contact .data .address li p{
+        font-size: 1em;
+        margin-top: -8%;
+
+      color: rgb(204, 204, 204);
+        margin-left: 0%;
+            }
+/* .right */
+.contact .right {
+
+    top:0;
+    right: 0;
+     background-color: rgb(0 96 189);
+   width: 6%;
+   height: 100vh;
+ }
+  .contact .right .menu{
+     
+ margin-left: 35%;
+     font-size: 2.5em;
+     color: rgb(221, 221, 221);
+ }
+ 
+  .contact .right .links{
+ padding-top:70px;
+ 
+ }
+ 
+  .contact .right .links li{
+ 
+ 
+ margin-bottom: 60px;
+ list-style: none;
+ height: 40px;
+ font-size: 1em;
+ cursor: pointer;
+ transform: rotate(90deg);
+ 
+ line-height: 40px;
+ color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+  .contact .right .links a{text-decoration: none;}
+  .contact .right .links .active, .contact .right .links li:hover{
+    
+   color: rgb(238, 184, 8);
+ }

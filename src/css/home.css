@@ -1,0 +1,175 @@
+.main {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+
+
+/* left */
+.main .left {
+  width: 26%;
+  background-image: url('../images/bg.jpg') ;
+  background-size: cover;
+  height: 100vh;
+}
+.main .left h3{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(121, 201, 255);
+}
+.main .left .details{
+    width: 160%;
+    margin-left: 10%;
+    margin-top: 25%;
+    height: auto;
+    
+}
+.main .left .details h4{
+    color: rgb(5, 54, 133);
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+.main .left .details h1{
+    position: relative;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -5%;
+    color: white;
+    padding-left: 20px;
+
+    text-transform: capitalize;
+}
+.main .left .details p{
+    width: 50%;
+    padding-left: 20px;
+    color: white;
+    margin-top: -5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+.main .left .details button{
+    width: 20%;
+    margin-left: 20px;
+    background: none;
+    outline: none;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+
+
+.main .left .social-media{
+    position: relative;
+    display: flex;
+    margin-top: 30%; margin-left: 18px;
+    list-style: none;
+}
+.main .left .social-media li{
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 1% 1% 1% 1%;
+    margin-left: 20px;
+}
+.main .left .social-media li:hover{
+    background-color: rgb(22, 21, 21);
+}
+.main .left .social-media li .icons{
+    font-size: 2.2em;
+ 
+   color: white;
+}
+
+
+/* center */
+.main .center {
+  width: 72%;
+  height: 100vh;
+
+ 
+}
+.main .center .banner-img{
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+}
+.main .center .banner-img img{
+    width: 100%;
+    height: 100%;
+}
+.main .center .texts{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+
+height: 120px;
+
+}
+.main .center .texts p{
+font-size: 1em;
+padding-left: 10px;
+padding-top: 8px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.main .center .texts button{
+    width: 100px;
+    height: 40px;
+ cursor: pointer;
+z-index: 2;
+margin-left: 10px;
+color: white;
+border: none;
+background: rgb(42, 106, 216);
+} 
+
+
+/* .right */
+.main .right {
+
+    top:0;
+    right: 0;
+     background-color: rgb(0 96 189);
+   width: 6%;
+   height: 100vh;
+ }
+  .main .right .menu{
+     
+ margin-left: 35%;
+     font-size: 2.5em;
+     color: rgb(221, 221, 221);
+ }
+ 
+  .main .right .links{
+ padding-top:70px;
+ 
+ }
+ 
+  .main .right .links li{
+ 
+ 
+ margin-bottom: 60px;
+ list-style: none;
+ height: 40px;
+ font-size: 1em;
+ cursor: pointer;
+ transform: rotate(90deg);
+ 
+ line-height: 40px;
+ color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+  .main .right .links a{text-decoration: none;}
+  .main .right .links .active, .main .right .links li:hover{
+    
+   color: rgb(238, 184, 8);
+ }
+ 
